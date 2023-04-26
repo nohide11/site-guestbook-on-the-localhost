@@ -1,0 +1,9 @@
+<?php
+$file = 'path/to/file.txt';
+$content = file_get_contents($file);
+
+// Подсветка синтаксиса PHP
+$content = preg_replace('/<\?php(.+?)\?>/s', '<span class="php">&lt;?php$1?&gt;</span>', $content);
+
+echo '<script>document.getElementById("content").innerHTML = "' . addslashes($content) . '";</script>';
+?>

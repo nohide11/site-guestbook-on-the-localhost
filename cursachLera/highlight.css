@@ -1,0 +1,9 @@
+pre {
+	padding: 10px;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+}
+code {
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 14px;
+}
